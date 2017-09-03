@@ -1,6 +1,8 @@
 # docker-play-speech-api
 Docker Yandex speechkit and api for remote play speech
 
+Use: https://github.com/art1415926535/Yandex_speech
+
 1. Get API‑key for Yandex speech kit:
 https://developer.tech.yandex.ru/
 
