@@ -8,7 +8,11 @@ https://developer.tech.yandex.ru/
 
 2. Run app:
 ```bash
-make build
+make docker_build
+YANDEX_KEY=test PORT=5000 make docker_run
+
+---
+
 YANDEX_KEY=test PORT=5000 make run
 ```
 
