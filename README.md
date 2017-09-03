@@ -12,7 +12,8 @@ make docker_build
 YANDEX_KEY=test PORT=5000 make docker_run
 
 ---
-
+python3 -m venv .env
+source .env/bin/activate
 YANDEX_KEY=test PORT=5000 make run
 ```
 
