@@ -63,7 +63,7 @@ def not_found(error):
 
 async def run_tasks():
     while loop.is_running():
-        await asyncio.sleep(0.1)
+        await asyncio.sleep(0.01)
         while not q.empty():
             task = q.get()
             task.play()
